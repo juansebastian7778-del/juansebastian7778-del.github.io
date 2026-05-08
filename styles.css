@@ -1,0 +1,36 @@
+      
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+      body {
+            background-color: #6d3a3a;
+            color: #cbcff8;
+            line-height: 1.6;
+        }
+        /*header*/
+    header {
+            background-color: #0c2747a8;
+            color: #f3f3f7;
+            padding: 20px 0;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }     
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+    header nav ul li a {
+            color: #f3f3f7;
+            text-decoration: none;
+            font-weight: bold;
+        }
